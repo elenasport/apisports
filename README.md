@@ -13,16 +13,16 @@ This is a Node.js module available through the npm registry. Installation is don
 
 ```
 
-$ npm install sports-api
+$ npm i @elenasport/sports-api
 
 ```
 
 
 ## API
-Import the sports-api module inside your modules and create the object with the new keyword
+Import the @elenasport/sports-api module inside your modules and create the object with the new keyword
 ```javascript
 
-var ElenaSport = require('sports-api')
+var ElenaSport = require('@elenasport/sports-api')
 var elenaSport = new ElenaSport('***YOUR_API_KEY***')
 
 ```
