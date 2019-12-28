@@ -1,0 +1,35 @@
+{
+  "name": "sports-api",
+  "version": "0.0.0",
+  "description": "ElenaSport.io Nodejs SDK - Sports API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "sports",
+    "api",
+    "football"
+  ],
+  "engines": {
+    "node": ">= 6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenasport/apisports.git"
+  },
+  "author": "ElenaSport <helpdesk@elenasport.io> (https://elenasport.io)",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/elenasport/apisports/issues"
+  },
+  "homepage": "https://github.com/elenasport/apisports",
+  "dependencies": {
+    "request": "2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.1.0",
+    "mocha": "^6.2.0"
+  }
+}
