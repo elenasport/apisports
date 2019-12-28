@@ -1,6 +1,6 @@
 {
   "name": "sports-api",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "ElenaSport.io Nodejs SDK - Sports API",
   "main": "index.js",
   "scripts": {
