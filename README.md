@@ -2,6 +2,8 @@
 
 [ElenaSport.io](https://www.elenasport.io): Your fast, reliable and affordable sports data provider
 
+> :warning: **Only European Football (soccer) is available right now, tennis and rugby are in apha test**
+
 ## GETTING STARTED
 
 ### Prerequisites
@@ -40,72 +42,292 @@ elenaSport.get(endpoint, params)
 ```json
 
 {
-   "results":[
-      {
-         "id":10,
-         "name":"Belgium"
-      },
-      {
-         "id":20,
-         "name":"Croatia"
-      },
-      {
-         "id":23,
-         "name":"Denmark"
-      },
-      {
-         "id":27,
-         "name":"England"
-      },
-      {
-         "id":31,
-         "name":"France"
-      },
-      {
-         "id":32,
-         "name":"Germany"
-      },
-      {
-         "id":45,
-         "name":"Italy"
-      },
-      {
-         "id":47,
-         "name":"Japan"
-      },
-      {
-         "id":58,
-         "name":"Netherlands"
-      },
-      {
-         "id":62,
-         "name":"Norway"
-      },
-      {
-         "id":67,
-         "name":"Portugal"
-      },
-      {
-         "id":80,
-         "name":"Spain"
-      },
-      {
-         "id":89,
-         "name":"USA"
-      },
-      {
-         "id":2,
-         "name":"Austria"
-      },
-      {
-         "id":13,
-         "name":"Brazil"
-      },
-      {
-         "id":34,
-         "name":"Greece"
-      }
-   ]
+    "results": [
+        {
+            "id": 10,
+            "name": "Belgium",
+            "alpha2code": "BE",
+            "alpha3code": "BEL",
+            "capital": "Brussels",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/10",
+            "region": "Europe",
+            "subregion": "Western Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 61,
+            "name": "Northern Ireland",
+            "alpha2code": null,
+            "alpha3code": null,
+            "capital": "Belfast",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/61",
+            "region": "Europe",
+            "subregion": "Western Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Italy",
+            "alpha2code": "IT",
+            "alpha3code": "ITA",
+            "capital": "Rome",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/45",
+            "region": "Europe",
+            "subregion": "Southern Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 80,
+            "name": "Spain",
+            "alpha2code": "ES",
+            "alpha3code": "ESP",
+            "capital": "Madrid",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/80",
+            "region": "Europe",
+            "subregion": "Southern Europe",
+            "timezones": [
+                "UTC",
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 62,
+            "name": "Norway",
+            "alpha2code": "NO",
+            "alpha3code": "NOR",
+            "capital": "Oslo",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/62",
+            "region": "Europe",
+            "subregion": "Northern Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 67,
+            "name": "Portugal",
+            "alpha2code": "PT",
+            "alpha3code": "PRT",
+            "capital": "Lisbon",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/67",
+            "region": "Europe",
+            "subregion": "Southern Europe",
+            "timezones": [
+                "UTC-01:00",
+                "UTC"
+            ]
+        },
+        {
+            "id": 25,
+            "name": "Egypt",
+            "alpha2code": "EG",
+            "alpha3code": "EGY",
+            "capital": "Cairo",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/25",
+            "region": "Africa",
+            "subregion": "Northern Africa",
+            "timezones": [
+                "UTC+02:00"
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Brazil",
+            "alpha2code": "BR",
+            "alpha3code": "BRA",
+            "capital": "Brasília",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/13",
+            "region": "Americas",
+            "subregion": "South America",
+            "timezones": [
+                "UTC-05:00",
+                "UTC-04:00",
+                "UTC-03:00",
+                "UTC-02:00"
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Argentina",
+            "alpha2code": "AR",
+            "alpha3code": "ARG",
+            "capital": "Buenos Aires",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/5",
+            "region": "Americas",
+            "subregion": "South America",
+            "timezones": [
+                "UTC-03:00"
+            ]
+        },
+        {
+            "id": 34,
+            "name": "Greece",
+            "alpha2code": "GR",
+            "alpha3code": "GRC",
+            "capital": "Athens",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/34",
+            "region": "Europe",
+            "subregion": "Southern Europe",
+            "timezones": [
+                "UTC+02:00"
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Albania",
+            "alpha2code": "AL",
+            "alpha3code": "ALB",
+            "capital": "Tirana",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/1",
+            "region": "Europe",
+            "subregion": "Southern Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Israel",
+            "alpha2code": "IL",
+            "alpha3code": "ISR",
+            "capital": "Jerusalem",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/44",
+            "region": "Asia",
+            "subregion": "Western Asia",
+            "timezones": [
+                "UTC+02:00"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Austria",
+            "alpha2code": "AT",
+            "alpha3code": "AUT",
+            "capital": "Vienna",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/2",
+            "region": "Europe",
+            "subregion": "Western Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 74,
+            "name": "Scotland",
+            "alpha2code": null,
+            "alpha3code": null,
+            "capital": "Edinburgh",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/74",
+            "region": "Europe",
+            "subregion": "Western Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 30,
+            "name": "Finland",
+            "alpha2code": "FI",
+            "alpha3code": "FIN",
+            "capital": "Helsinki",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/30",
+            "region": "Europe",
+            "subregion": "Northern Europe",
+            "timezones": [
+                "UTC+02:00"
+            ]
+        },
+        {
+            "id": 18,
+            "name": "Colombia",
+            "alpha2code": "CO",
+            "alpha3code": "COL",
+            "capital": "Bogotá",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/18",
+            "region": "Americas",
+            "subregion": "South America",
+            "timezones": [
+                "UTC-05:00"
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Australia",
+            "alpha2code": "AU",
+            "alpha3code": "AUS",
+            "capital": "Canberra",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/7",
+            "region": "Oceania",
+            "subregion": "Australia and New Zealand",
+            "timezones": [
+                "UTC+05:00",
+                "UTC+06:30",
+                "UTC+07:00",
+                "UTC+08:00",
+                "UTC+09:30",
+                "UTC+10:00",
+                "UTC+10:30",
+                "UTC+11:30"
+            ]
+        },
+        {
+            "id": 75,
+            "name": "Serbia",
+            "alpha2code": "RS",
+            "alpha3code": "SRB",
+            "capital": "Belgrade",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/75",
+            "region": "Europe",
+            "subregion": "Southern Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        },
+        {
+            "id": 89,
+            "name": "USA",
+            "alpha2code": "US",
+            "alpha3code": "USA",
+            "capital": "Washington, D.C.",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/89",
+            "region": "Americas",
+            "subregion": "Northern America",
+            "timezones": [
+                "UTC-12:00",
+                "UTC-11:00",
+                "UTC-10:00",
+                "UTC-09:00",
+                "UTC-08:00",
+                "UTC-07:00",
+                "UTC-06:00",
+                "UTC-05:00",
+                "UTC-04:00",
+                "UTC+10:00",
+                "UTC+12:00"
+            ]
+        },
+        {
+            "id": 78,
+            "name": "Slovenia",
+            "alpha2code": "SI",
+            "alpha3code": "SVN",
+            "capital": "Ljubljana",
+            "flagSVG": "https://cdn.elenasport.io/flags/svg/78",
+            "region": "Europe",
+            "subregion": "Southern Europe",
+            "timezones": [
+                "UTC+01:00"
+            ]
+        }
+    ],
+    "page": 1,
+    "itemsPerPage": 20
 }
 
 ```
